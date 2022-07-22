@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>lol</title>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+
+  <!-- div containing the popup -->
+  <div class="content">
+    <div onclick="togglePopup()" class="close-btn">
+      ×
+    </div>
+    <h3>Popup</h3>
+
+    <p>
+      jQuery is an open source JavaScript library
+      that simplifies the interactions between an
+      HTML/CSS document, or more precisely the
+      Document Object Model (DOM), and JavaScript.
+      Elaborating the terms, jQuery simplifies
+      HTML document traversing and manipulation,
+      browser event handling, DOM animations,
+      Ajax interactions, and cross-browser
+      JavaScript development.
+    </p>
+  </div>
+  <div class="div1">
+    <table id="tablemain" class="display cell-border" cellspacing="0">
+      <thead>
+        <tr>
+          <th id="facility_header">Facility name</th>
+          <th>Phone #</th>
+          <th id="confidence">Confidence</th>
+          <th>Speciality</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CCC</td>
+          <td>00001111</td>
+          <td>0</td>
+          <td>GGG</td>
+        </tr>
+        <tr>
+          <td>JJJ</td>
+          <td>55544444</td>
+          <td>0.2</td>
+          <td>MMM</td>
+        </tr>
+        <tr>
+          <td>AAA</td>
+          <td>33332222</td>
+          <td>0.55</td>
+          <td>RRR</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <link rel="stylesheet" href="style.css">
+</body>
+
+</html>
